@@ -6,7 +6,7 @@ import { IsString, Length, MinLength } from 'class-validator'
 @Entity()
 export default class Page extends BaseEntity {
 
-        @PrimaryGeneratedColumn()
+  @PrimaryGeneratedColumn()
   id?: number
 
   @IsString()
