@@ -5,8 +5,9 @@
   "main": "target/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"nodemon .",
-    "postinstall": "tsc -p ."
+    "start":"node .",
+    "postinstall": "tsc -p .",
+    "compile":"tsc"
   },
   "keywords": [],
   "author": "",
